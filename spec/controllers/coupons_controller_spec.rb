@@ -15,6 +15,7 @@ describe CouponsController do
         expect(response).to redirect_to Coupon.last
       end
     end
+    
   end
 
 end
